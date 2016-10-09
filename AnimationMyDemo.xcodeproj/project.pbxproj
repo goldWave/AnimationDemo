@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B07C0441DA74A2F00019527 /* TransLationAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07C0431DA74A2F00019527 /* TransLationAnimationVC.m */; };
+		8B07C0471DA75FC300019527 /* AffineTransformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07C0461DA75FC300019527 /* AffineTransformVC.m */; };
 		8B19D6D71D9E153200B9F1DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19D6D61D9E153200B9F1DF /* main.m */; };
 		8B19D6DA1D9E153200B9F1DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19D6D91D9E153200B9F1DF /* AppDelegate.m */; };
 		8B19D6DD1D9E153200B9F1DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19D6DC1D9E153200B9F1DF /* ViewController.m */; };
@@ -16,9 +18,15 @@
 		8B19D6EE1D9E158D00B9F1DF /* BaseAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19D6ED1D9E158D00B9F1DF /* BaseAnimationVC.m */; };
 		8B19D6F31D9E49AA00B9F1DF /* KeyAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19D6F21D9E49AA00B9F1DF /* KeyAnimationVC.m */; };
 		8B19D6F61D9E58E000B9F1DF /* GroupAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B19D6F51D9E58E000B9F1DF /* GroupAnimationVC.m */; };
+		8B3BBF0A1DAA41DB007C27A9 /* ComprehensiveAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BBF091DAA41DB007C27A9 /* ComprehensiveAnimationVC.m */; };
+		8B3BBF0D1DAA4E02007C27A9 /* PathRoundImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BBF0C1DAA4E02007C27A9 /* PathRoundImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B07C0421DA74A2F00019527 /* TransLationAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransLationAnimationVC.h; sourceTree = "<group>"; };
+		8B07C0431DA74A2F00019527 /* TransLationAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransLationAnimationVC.m; sourceTree = "<group>"; };
+		8B07C0451DA75FC300019527 /* AffineTransformVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineTransformVC.h; sourceTree = "<group>"; };
+		8B07C0461DA75FC300019527 /* AffineTransformVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineTransformVC.m; sourceTree = "<group>"; };
 		8B19D6D21D9E153200B9F1DF /* AnimationMyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationMyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B19D6D61D9E153200B9F1DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B19D6D81D9E153200B9F1DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +45,10 @@
 		8B19D6F21D9E49AA00B9F1DF /* KeyAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyAnimationVC.m; sourceTree = "<group>"; };
 		8B19D6F41D9E58E000B9F1DF /* GroupAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimationVC.h; sourceTree = "<group>"; };
 		8B19D6F51D9E58E000B9F1DF /* GroupAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationVC.m; sourceTree = "<group>"; };
+		8B3BBF081DAA41DB007C27A9 /* ComprehensiveAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComprehensiveAnimationVC.h; sourceTree = "<group>"; };
+		8B3BBF091DAA41DB007C27A9 /* ComprehensiveAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComprehensiveAnimationVC.m; sourceTree = "<group>"; };
+		8B3BBF0B1DAA4E02007C27A9 /* PathRoundImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathRoundImageView.h; sourceTree = "<group>"; };
+		8B3BBF0C1DAA4E02007C27A9 /* PathRoundImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathRoundImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,14 @@
 				8B19D6F21D9E49AA00B9F1DF /* KeyAnimationVC.m */,
 				8B19D6F41D9E58E000B9F1DF /* GroupAnimationVC.h */,
 				8B19D6F51D9E58E000B9F1DF /* GroupAnimationVC.m */,
+				8B07C0421DA74A2F00019527 /* TransLationAnimationVC.h */,
+				8B07C0431DA74A2F00019527 /* TransLationAnimationVC.m */,
+				8B07C0451DA75FC300019527 /* AffineTransformVC.h */,
+				8B07C0461DA75FC300019527 /* AffineTransformVC.m */,
+				8B3BBF081DAA41DB007C27A9 /* ComprehensiveAnimationVC.h */,
+				8B3BBF091DAA41DB007C27A9 /* ComprehensiveAnimationVC.m */,
+				8B3BBF0B1DAA4E02007C27A9 /* PathRoundImageView.h */,
+				8B3BBF0C1DAA4E02007C27A9 /* PathRoundImageView.m */,
 				8B19D6DE1D9E153200B9F1DF /* Main.storyboard */,
 				8B19D6EF1D9E3D1A00B9F1DF /* define.h */,
 				8B19D6F01D9E3DBD00B9F1DF /* PrefixHeader.pch */,
@@ -172,9 +192,13 @@
 			files = (
 				8B19D6EE1D9E158D00B9F1DF /* BaseAnimationVC.m in Sources */,
 				8B19D6F31D9E49AA00B9F1DF /* KeyAnimationVC.m in Sources */,
+				8B3BBF0D1DAA4E02007C27A9 /* PathRoundImageView.m in Sources */,
 				8B19D6DD1D9E153200B9F1DF /* ViewController.m in Sources */,
 				8B19D6F61D9E58E000B9F1DF /* GroupAnimationVC.m in Sources */,
+				8B07C0471DA75FC300019527 /* AffineTransformVC.m in Sources */,
 				8B19D6DA1D9E153200B9F1DF /* AppDelegate.m in Sources */,
+				8B07C0441DA74A2F00019527 /* TransLationAnimationVC.m in Sources */,
+				8B3BBF0A1DAA41DB007C27A9 /* ComprehensiveAnimationVC.m in Sources */,
 				8B19D6D71D9E153200B9F1DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +358,7 @@
 				8B19D6EB1D9E153200B9F1DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

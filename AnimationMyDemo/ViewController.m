@@ -10,6 +10,9 @@
 #import "BaseAnimationVC.h"
 #import "KeyAnimationVC.h"
 #import "GroupAnimationVC.h"
+#import "TransLationAnimationVC.h"
+#import "AffineTransformVC.h"
+#import "ComprehensiveAnimationVC.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) NSArray *titles;
@@ -20,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"导航页";
-    self.titles = @[@"基础动画", @"关键帧动画", @"组动画"];
+    self.titles = @[@"基础动画", @"关键帧动画", @"组动画", @"转场动画", @"仿射变换" , @"综合案例"];
     [self initTitleBtn];
     
 }
@@ -59,6 +62,27 @@
         case 2:
         {
             GroupAnimationVC *groupVC = [GroupAnimationVC new];
+            groupVC.title = self.titles[btn.tag];
+            [self.navigationController pushViewController:groupVC  animated:YES];
+        }
+            break;
+        case 3:
+        {
+            TransLationAnimationVC *groupVC = [TransLationAnimationVC new];
+            groupVC.title = self.titles[btn.tag];
+            [self.navigationController pushViewController:groupVC  animated:YES];
+        }
+            break;
+        case 4:
+        {
+            AffineTransformVC *groupVC = [AffineTransformVC new];
+            groupVC.title = self.titles[btn.tag];
+            [self.navigationController pushViewController:groupVC  animated:YES];
+        }
+            break;
+        case 5:
+        {
+            ComprehensiveAnimationVC *groupVC = [ComprehensiveAnimationVC new];
             groupVC.title = self.titles[btn.tag];
             [self.navigationController pushViewController:groupVC  animated:YES];
         }
